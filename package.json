@@ -1,0 +1,35 @@
+{
+  "name": "cs-seminar-ereport-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "E-Report สัมมนาวิชาการ วิทยาการคอมพิวเตอร์ 2569 (Computer Science Academic Seminar 2026)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "lucide-react": "^1.51.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
